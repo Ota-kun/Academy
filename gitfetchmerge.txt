@@ -1,0 +1,1 @@
+Harjoitus 4, kohta 8. (fetch ja merge)
