@@ -20,9 +20,29 @@
 
 .aladiv {
     width: 100%;
-    padding: 10%;
+    padding: 5%;
     background: rgba(255,255,255,0.8);
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.ala-aladiv {
+    width: 100%;
+    padding: 5%;
+    background: rgba(255,255,255,0.8);
+}
+
+.ala-ala-aladiv {
+    width: 100%;
+    padding: 5%;
+    background: rgba(255,255,255,0.8);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.tietosivut {
+    width: 100%;
+    padding: 5%;
+    background: rgba(255,255,255,0.8);
+    border-radius: 100px;
 }
 
 nav ul li {
@@ -56,15 +76,18 @@ nav {
     padding: 0;
 }
 
-#hae {
+#haeBtn {
     width: 50%;
     float: right;
     margin: 10% 0% 2% 0%;
+    background-color: #2173d8;
+    color: #f9f9f9;
+    border-color: #2173d8;
 }
 
 #aika {
-    width: 60%;
-    margin: 10% 2% 2% 0%;
+    width: 35%;
+    margin: 10% 0% 2% 0%;
     float: left;
     display: inline-block;
 }
@@ -74,20 +97,70 @@ nav {
     width: 20%;
 }
 
-#lahtoasema {
+#fromwhere {
     width: 90%;
     float: left;
 }
 
-#paateasema {
+#towhere {
     width: 90%;
     float: right;
+}
+    
+.lista {
+    
+}
+
+#infovali {
+    font-size: 1.2em;
+    color: black;
+}
+
+.tiedot ul {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    list-style-type: none;
+    -webkit-padding-start: 0;
+    font-size: 0.9em;
+}
+
+    .tiedot ul li {
+        display: inline-block;
+        padding: 2px 5px;
+        margin: 0 0 3% 3%;
+        padding: 0;
+        text-align: center;
+        list-style-position: inside;
+    }
+
+#fr {
+    text-transform: capitalize;
+    color: green;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#t {
+    text-transform: capitalize;
+    color: red;
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
 h1 {
     font-size: 3em;
     color: black;
     padding: 5%;
+}
+
+h3 {
+    color: black;
+}
+
+.h3text {
+    color: black;
+    font-size: 1.2em;
 }
 
 .info {
@@ -109,10 +182,27 @@ col-sm-6 {
     text-align: right;
 }
 
+.cal {
+    width: 45%;
+    margin: 10% 0 0 0;
+    padding: 0 10px;
+}
+
 .tiedot {
-    margin: 12%;
+    float: left;
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .kappaleet {
     margin: 5%;
+}
+
+.väri {
+    color: green;
+}
+
+footer {
+    font-size: 0.8em;
 }

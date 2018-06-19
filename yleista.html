@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Juna-aikataulut</title>
+    <title>Yleistä</title>
 
     <link rel="shortcut icon" type="image/png" href="W6gsx9c.png" />
     <link rel="shortcut icon" type="image/png" href="https://i.imgur.com/W6gsx9c.png" />
@@ -74,66 +74,13 @@
                 </div><!--Navdiv-sulku-->
             </div><!--col-sm-6 -sulku-->
         </div><!--keskidiv-sulku-->
-
-        <div class="aladiv">
-            <p class="info">
-                Selvittääksesi junien aikataulut, kirjoita alla oleviin kenttiin lähtö- ja pääteasema.
-            </p>
-            <br />
-            <form id="form1" runat="server">
-                <div class="col-sm-6">
-                    <p class="miniots">
-                        <strong>Lähtöasema:</strong><br />
-                    </p>
-                    <input type="text" placeholder="Aseman nimi" id="fromwhere" />
-                    <input type="text" placeholder="Aika" id="aika" />
-                    <button type="button" class="cal" aria-label="calendar">
-                        Kalenteri <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
-                    </button>
-                </div>
-                <div class="col-sm-6">
-                    <p class="miniotsRight">
-                        <strong>Pääteasema:</strong><br />
-                    </p>
-                    <input type="text" placeholder="Aseman nimi" id="towhere" />
-                    <br />
-                    <input type="button" value="Hae" id="haeBtn" />
-                </div>
-            </form>
-        </div>
-
-        <div class="ala-aladiv">
-            <div class="tiedot">
-                <br /><br />
-                <!--Tähän tulostuu haettu aikatauludata-->
-                      <ul style="list-style-type:none" id="lista">
-                          <li id="infovali"><strong>Lähtevät junat välillä:</strong></li>
-                          <li id="fr"></li> &#8594;
-                          <li id="t"></li>
-                      </ul>
-                <br /><br />
-            </div>
-        </div>
-        <div class="ala-ala-aladiv">
-            <div class="kappaleet">
-
-            </div>
-            <br />
-
-            <div id="kuvia">
-                <img src="https://images.pexels.com/photos/211052/pexels-photo-211052.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="400" height="300" />
-            </div>
-            <br />
-            <footer>
-                Copyright &copy; 2018 Kairesalo Mikko, Koskelainen Aarni, Seunavaara Sara, Toivola Okku
-            </footer>
-
-
-        </div><!--ala-ala-aladiv-sulku-->
-
     </center>
-    <!-- BOOTSTRAP JS - Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="Toiminnallisuus.js"></script>
+
+    <div class="tietosivut">
+        <h3>Yleistä</h3>
+        <p class="h3text">
+            "<span class="väri">VR</span> on lyhenne sanoista <span class="väri">"Vaaralliset Rautatiet"</span> (tunnetaan myös Valtion Runkkareina). VR on Suomen raideliikenteen pääjehu. Tämä joukkokuljetusmuoto on kehitetty jotenkin viallisten tai mielialaltaan järkkyneiden poiskuljettamiseen tavallisten ihmisten silmistä ja jaloista. Rautateille töihin erehtyneiden keskuudessa lyhenne VR tulee sanoista Väärä Ratkaisu. Sloganina käytetään: <em>Kävellen olisit jo perillä.</em>"
+        </p>
+    </div>
 </body>
 </html>
